@@ -1,0 +1,227 @@
+body
+{
+		background-color: #303030;
+		color: #ffffff;
+		font-family: 'Lato', sans-serif;
+		font-size: 40px;
+		margin: 0 !important;
+}
+
+/*lapie wszystko co jest*/
+.wrapper
+{
+		width: 100%;
+}
+
+/* kontener w ktorym jest rowniez kontener logo*/
+.header
+{
+		width: 100%;
+		padding: 20px 0;
+		background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+
+.logo
+{
+	width:600px;
+	font-size: 48px;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	letter-spacing: 1px;
+}
+
+
+/* menu*/
+.nav
+{
+  width: 100%;
+	height: 50px;
+	background-color: #000000;
+	text-align: center;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	letter-spacing: 1px;
+}
+
+/* div ze zdjeciem*/
+.img
+{
+	width:100%;
+	height: 997px;
+	text-align: center;
+	background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+
+
+.opis2
+{
+	width:1500px;
+	height:680px;
+	float:left;
+	background-color: black;
+
+	font-size: 35px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.foto1
+{
+float: left;
+		width:398px;
+
+
+}
+
+.foto3
+{
+	float: left;
+		width:398px;
+}
+
+.bigbox
+{
+	height:680px;
+}
+.socials
+{
+	width: 100%;
+	text-align: center;
+	background-color: #292929;
+}
+
+.socialdivs
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fb
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.fb:hover
+{
+	background-color: #4668b3;
+}
+
+.yt
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.yt:hover
+{
+	background-color: #d94348;
+}
+
+.tw
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.tw:hover
+{
+	background-color: #3095d3;
+}
+
+.gplus
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.gplus:hover
+{
+	background-color: #d95333;
+}
+
+.footer
+{
+	text-align: center;
+	background-color: #222222;
+	padding: 30px;
+	font-size: 20px;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 30px;
+	height:40px;
+	line-height: 150%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display:block;
+	height: 100px;
+	text-align: center;
+}
+ol > li
+{
+	float: left;
+	width: 212px;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	border-right: 1px solid;
+	border-color: white;
+	letter-spacing: 2px;
+	height: 40px;
+
+}
+ol > li:first-child
+{
+	border-left: 1px solid;
+	border-color: white;
+}
+
+ol > li:hover
+{
+	background-color: #960800;
+	height: 100%;
+}
+
+ol > li:hover > a
+{
+	color: white;
+	font-weight: bold;
+}
+
+ol > li > a
+{
+	font-weight: bold;
+	height: 50px;
+
+}
