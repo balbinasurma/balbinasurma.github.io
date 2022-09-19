@@ -44,6 +44,74 @@ body
 	letter-spacing: 1px;
 }
 
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 30px;
+	height:40px;
+	line-height: 150%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display:block;
+	height: 100px;
+	text-align: center;
+}
+ol > li
+{
+	float: left;
+	width: 212px;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	border-right: 1px solid;
+	border-color: white;
+	letter-spacing: 2px;
+	height: 40px;
+
+}
+ol > li:first-child
+{
+	border-left: 1px solid;
+	border-color: white;
+}
+
+ol > li:hover
+{
+	background-color: #960800;
+	height: 100%;
+}
+
+ol > li:hover > a
+{
+	color: white;
+	font-weight: bold;
+}
+
+ol > li > a
+{
+	font-weight: bold;
+	height: 50px;
+
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+
 /* div ze zdjeciem*/
 .img
 {
@@ -53,47 +121,24 @@ body
 	background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
 }
 
-
-.opis2
+/*sekcja miniatury ze zdjeciem*/
+.content
 {
-	width:1500px;
-	height:680px;
-	float:left;
-	background-color: black;
-
-	font-size: 35px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin-left: auto;
-	margin-right: auto;
-
+width:100%;
+text-align: center;
+background-color: black;
+padding: 10px;
 }
 
-.foto1
-{
-float: left;
-		width:398px;
 
 
-}
-
-.foto3
-{
-	float: left;
-		width:398px;
-}
-
-.bigbox
-{
-	height:680px;
-}
+/*ikony*/
 .socials
 {
 	width: 100%;
 	text-align: center;
 	background-color: #292929;
+	clear:both;
 }
 
 .socialdivs
@@ -151,77 +196,13 @@ float: left;
 	background-color: #d95333;
 }
 
+
+
+/*stopka*/
 .footer
 {
 	text-align: center;
 	background-color: #222222;
 	padding: 30px;
 	font-size: 20px;
-}
-
-.sticky
-{
-	width: 100%;
-	position: fixed;
-	left: 0;
-	top: 0;
-	z-index: 100;
-}
-
-ol
-{
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-	font-size: 30px;
-	height:40px;
-	line-height: 150%;
-	display: inline-block;
-}
-
-ol a
-{
-	color: #ffffff;
-	text-decoration: none;
-	display:block;
-	height: 100px;
-	text-align: center;
-}
-ol > li
-{
-	float: left;
-	width: 212px;
-
-	padding-top: 5px;
-	padding-bottom: 5px;
-	font-size: 20px;
-	border-right: 1px solid;
-	border-color: white;
-	letter-spacing: 2px;
-	height: 40px;
-
-}
-ol > li:first-child
-{
-	border-left: 1px solid;
-	border-color: white;
-}
-
-ol > li:hover
-{
-	background-color: #960800;
-	height: 100%;
-}
-
-ol > li:hover > a
-{
-	color: white;
-	font-weight: bold;
-}
-
-ol > li > a
-{
-	font-weight: bold;
-	height: 50px;
-
 }
