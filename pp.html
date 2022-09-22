@@ -15,56 +15,81 @@
   </head>
 
 
+  <body>
+    <div class="wrapper">
 
-      <body>
-        <div class="wrapper">
+
             <div class="header">
-              <div class="logo">
-                <img src= "foto1/ikona.png" style="float:left;width:50px;height:50px"/>
-                Speed<span style= "color: #30d5c8">-Skeating-</span>Inline
-                </div>
-                <div style="clear:both;"></div>
+                    <div class="logo">
+                            <img src= "foto1/ikona.png" style="float:left;width:50px;height:50px"/>
+                            Speed<span style= "color: #30d5c8">-Skeating-</span>Inline
+                    </div>
+                    <div style="clear:both;"></div>
             </div>
-
-
-<div class= "content">
-Puchar Polski:
-Gdańsk
-Katowice
-Grodzisk wielkopolski
-Łódź
-Gorlice
-<p>
-  <img src="g.jpg"/><img src="m3.jpg"/><img src="m4.jpg"/><img src="t.jpg"/>
-
-</div>
-
-</div>
-
-</div>
-
-<!--ikony-->
-  <div class="socials">
-                <div class="socialdivs">
-                    <div class="fb">
-                      <i class="icon-facebook"></i>
-                    </div>
-                    <div class="yt">
-                      <i class= "icon-video"></i>
-                    </div>
-                    <div class="tw">
-                      <i class="icon-twitter"></i>
-                    </div>
-                    <div class="gplus">
-                      <i class= "icon-gplus"></i>
-                    </div>
-                    <div style="clear:both"></div>
-                </div>
+<!--menu-------------------------------------------------------------------------------------------------->
+            <div class= "nav">
+                    <ol>
+                            <li><a href="mp.html">Mistrzostwa Polski</a></li>
+                            <li><a href="pp.html">Puchar Polski</a></li>
+                            <li><a href="galeria.html">Galeria</a></li>
+                            <li><a href="kal.html">Kaledarz zawodów</a></li>
+                            <li><a href="ms.html">Mistrzostwa Świata</a></li>
+                            <li><a href="ps.html">Puchar Świata</a></li>
+                            <li><a href="pe.html">Puchar Europy</a></li>
+                    </ol>
             </div>
+<!--lepkie menu------------------->
+            <script src= "jquery-3.6.0.min.js"></script>
+                    <script>
+                    $(document).ready(function() {
+                    var NavY = $('.nav').offset().top;
 
-</div>
+                    var stickyNav = function(){
+                    var ScrollY = $(window).scrollTop();
 
-              <!--stopka-->
+                    if (ScrollY > NavY) {
+                    $('.nav').addClass('sticky');
+                    } else {
+                    $('.nav').removeClass('sticky');
+                    }
+                    };
+
+                    stickyNav();
+
+                    $(window).scroll(function() {
+                    stickyNav();
+                    });
+                    });
+                    </script>
+<!--zdjecie głowne z tekstem--------------------------------------------------------------------------------------------------->
+            <div class="img">
+                    <img src="p.jpg">
+
+                    <div class= "content">
+                    Puchar Polski
+                    Zawody rozgrywane najczęście na długich dystansach. W tej kategorii zawodów zawodnicy biorą udział
+                    w rankingu punktowym to znaczy ze na Puchar Polski składa się kilka zawodów za które zawodnicy otrzymują punkty.
+                     W myśl uczestnik o największej sumie otrzymanych punktów zostaje zwyciązcą  Pucharu Polski na dany rok.
+
+            </div>
+<!--ikony---------------------------------------------------------------------------------------------------------------------->
+            <div class="socials">
+                    <div class="socialdivs">
+                            <div class="fb">
+                                    <i class="icon-facebook"></i>
+                            </div>
+                            <div class="yt">
+                                    <i class= "icon-video"></i>
+                            </div>
+                            <div class="tw">
+                                    <i class="icon-twitter"></i>
+                            </div>
+                            <div class="gplus">
+                                    <i class= "icon-gplus"></i>
+                            </div>
+                    </div>
+            </div>
+<!--stopka------------------------------------------------------------------------------------------------------------------->
             <div class= "footer">Speed-Skeating-Inline &copy; 2021 Wszelkie prawa zastrzeżone.
             </div>
             <script src= "jquery-3.6.0.min.js"></script>
