@@ -32,7 +32,6 @@ body
 	letter-spacing: 1px;
 }
 
-
 /* menu*/
 .nav
 {
@@ -84,7 +83,7 @@ ol > li:first-child
 
 ol > li:hover
 {
-	background-color: #960800;
+	background-color: #FF0000;
 	height: 100%;
 }
 
@@ -115,23 +114,17 @@ ol > li > a
 .img
 {
 	text-align: right;
-	background-image: #000000;
-	height:997px;
-}
-.x.jpg
-{
-
+	height:650px;
 }
 
 .content
 {
-transform: translate(0%,-102%);
+transform: translate(15%,-120%);
 background:  rgba(0, 0, 0, 0.6);
-width:1455px;
-margin-left: auto;
-margin-right: auto;
-padding: 20px;
+width:750px;
+padding: 40px;
 text-align: justify;
+font-size: 28px;
 }
 
 
