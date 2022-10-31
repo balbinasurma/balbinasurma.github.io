@@ -2,8 +2,7 @@ body
 {
 		background-color: #000000;
 		color: #ffffff;
-		font-family: 'Lato', sans-serif;
-		font-size: 40px;
+		font-family: 'Comfortaa', cursive;
 		margin: 0 !important;
 		height:100%;
 }
@@ -25,7 +24,7 @@ body
 .logo
 {
 	width:500px;
-	font-size: 48px;
+	font-size: 35px;
 	font-weight: bold;
 	margin-left: auto;
 	margin-right: auto;
@@ -45,7 +44,7 @@ body
 .nav
 {
 	height: 50px;
-	background-color: #000000;
+	background-color: #090909;
 	text-align: center;
 	border-top: solid;
 	border-bottom: solid;
@@ -57,7 +56,7 @@ ol
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
-	font-size: 25px;
+	font-size: 15px;
 	height:40px;
 	line-height: 150%;
 	display: inline-block;
@@ -81,9 +80,8 @@ ol > li
 {
 	float: left;
 	width: 212px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	font-size: 20px;
+	padding-top: 12px;
+	font-size: 15px;
 	border-right: 0.5px solid;
 	border-color: white;
 	letter-spacing: 2px;
@@ -126,40 +124,97 @@ ol > li > a
 
 
 /* div ze zdjeciem*/
-.img
+.img1
 {
 	text-align: right;
 	height:650px;
 }
+.img2
+{
+	text-align: right;
+	height:500px;
+}
+.img3
+{
+	text-align: right;
+	height:700px;
+}
+.img4
+{
+	text-align: right;
+	height:700px;
+}
+.img5
+{
+	text-align: right;
+	height:300px;
+}
 
-
-.content
+.content1
 {
 transform: translate(15%,-120%);
-background: #191919;
+background: #090909;
 border:none;
 border-radius: 5px;
 width:750px;
 padding: 40px;
 text-align: justify;
-font-size: 27px;
+font-size: 25px;
 }
-.content1
+.content2
 {
-background:  rgba(0, 0, 0, 0.6);
-width:700px;
+transform: translate(70%,20%);
+background: #090909;
+border:none;
+border-radius: 5px;
+width:550px;
 padding: 40px;
 text-align: justify;
-font-size: 27px;
+font-size: 25px;
 }
+
+.content3
+{
+transform: translate(70%,15%);
+background: #090909;
+border:none;
+border-radius: 5px;
+width:550px;
+padding: 40px;
+text-align: justify;
+font-size: 25px;
+}
+.content4
+{
+transform: translate(10%,20%);
+background: #090909;
+border:none;
+border-radius: 5px;
+width:550px;
+padding: 40px;
+text-align: justify;
+font-size: 25px;
+}
+.content5
+{
+transform: translate(70%,0%);
+background: #090909;
+border:none;
+border-radius: 5px;
+width:550px;
+padding: 40px;
+text-align: justify;
+font-size: 25px;
+}
+
 .slider1
 {
 	width:700px;
-	height:560px;
+	height:550px;
 	background: url(foto1.jpg);
 	margin:150px auto;
 	animation: slide 25s infinite;
-	transform: translate(50%,-100%);
+	transform: translate(50%,-143%);
 }
 @keyframes slide{
 25%{
@@ -246,7 +301,7 @@ background: url(berlin222.jpg);
 	text-align: center;
 	background-color: #222222;
 	padding: 30px;
-	font-size: 20px;
+	font-size: 15px;
 	clear:both;
 	margin:0;
 	height:50px;
