@@ -80,7 +80,7 @@ ol > li
 {
 	float: left;
 	width: 212px;
-	padding-top: 12px;
+	padding-top: 13px;
 	font-size: 15px;
 	border-right: 0.5px solid;
 	border-color: white;
@@ -109,7 +109,7 @@ ol > li:hover > a
 ol > li > a
 {
 	font-weight: bold;
-	height: 50px;
+	height: 20px;
 
 }
 
@@ -129,6 +129,7 @@ ol > li > a
 	text-align: right;
 	height:650px;
 }
+
 .img2
 {
 	text-align: right;
@@ -145,6 +146,11 @@ ol > li > a
 	height:700px;
 }
 .img5
+{
+	text-align: right;
+	height:300px;
+}
+.img6
 {
 	text-align: right;
 	height:300px;
@@ -196,6 +202,17 @@ text-align: justify;
 font-size: 25px;
 }
 .content5
+{
+transform: translate(70%,0%);
+background: #090909;
+border:none;
+border-radius: 5px;
+width:550px;
+padding: 40px;
+text-align: justify;
+font-size: 25px;
+}
+.content6
 {
 transform: translate(70%,0%);
 background: #090909;
