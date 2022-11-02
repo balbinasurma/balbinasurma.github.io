@@ -35,7 +35,7 @@ body
 }
 .logo:hover
 {
-	background-color: #2510a3;
+	background-color: #3095d3;
 	border:none;
 	border-radius: 5px;
 }
@@ -143,7 +143,7 @@ ol > li > a
 .img4
 {
 	text-align: right;
-	height:700px;
+	height:1200px;
 }
 .img5
 {
@@ -192,7 +192,7 @@ font-size: 25px;
 }
 .content4
 {
-transform: translate(10%,20%);
+transform: translate(10%,50%);
 background: #090909;
 border:none;
 border-radius: 5px;
@@ -201,6 +201,19 @@ padding: 40px;
 text-align: justify;
 font-size: 25px;
 }
+.videob
+{
+transform: translate(180%,-50%);
+background: #090909;
+border:none;
+border-radius: 5px;
+width:550px;
+padding: 40px;
+text-align: justify;
+font-size: 25px;
+}
+
+
 .content5
 {
 transform: translate(70%,0%);
