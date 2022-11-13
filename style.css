@@ -143,7 +143,7 @@ ol > li > a
 .img4
 {
 	text-align: right;
-	height:1200px;
+	height:600px;
 }
 .img5
 {
@@ -153,7 +153,15 @@ ol > li > a
 .img6
 {
 	text-align: right;
-	height:300px;
+	height:650px;
+	width: 1400px;
+}
+
+.boxfoto
+{
+	padding: 100px;
+	height: 300px;
+	width: 1300px;
 }
 
 .content1
@@ -162,7 +170,7 @@ transform: translate(15%,-120%);
 background: #090909;
 border:none;
 border-radius: 5px;
-width:750px;
+width:760px;
 padding: 40px;
 text-align: justify;
 font-size: 25px;
@@ -192,25 +200,27 @@ font-size: 25px;
 }
 .content4
 {
-transform: translate(10%,50%);
+transform: translate(10%,20%);
 background: #090909;
 border:none;
 border-radius: 5px;
 width:550px;
 padding: 40px;
+margin-top: -60px;
 text-align: justify;
 font-size: 25px;
+float: left;
 }
 .videob
 {
-transform: translate(180%,-50%);
+
 background: #090909;
-border:none;
-border-radius: 5px;
-width:550px;
-padding: 40px;
-text-align: justify;
-font-size: 25px;
+}
+.boxcontentvideo
+{
+	width:1450px;
+	padding-top: 60px;
+	height: 600px;
 }
 
 
@@ -225,14 +235,13 @@ padding: 40px;
 text-align: justify;
 font-size: 25px;
 }
+
 .content6
 {
-transform: translate(70%,0%);
+transform: translate(20%,-10%);
 background: #090909;
 border:none;
 border-radius: 5px;
-width:550px;
-padding: 40px;
 text-align: justify;
 font-size: 25px;
 }
@@ -243,8 +252,9 @@ font-size: 25px;
 	height:550px;
 	background: url(foto1.jpg);
 	margin:150px auto;
-	animation: slide 25s infinite;
+	animation: slide 10s infinite;
 	transform: translate(50%,-143%);
+	float: left;
 }
 @keyframes slide{
 25%{
@@ -266,6 +276,7 @@ background: url(berlin222.jpg);
 	text-align: center;
 	background-color: #292929;
 	height: 155px;
+	clear: both;
 }
 
 .socialdivs
