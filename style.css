@@ -184,7 +184,10 @@ ol > li > a
 	height: 300px;
 	width: 1300px;
 }
-
+.content8
+{
+	height:600px;
+}
 .content1
 {
 transform: translate(15%,-120%);
