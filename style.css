@@ -5,6 +5,27 @@ body
 		font-family: 'Comfortaa', cursive;
 		margin: 0 !important;
 		height:100%;
+		padding:0;
+		box-sizing: border-box;
+}
+
+section
+{
+position: relative;
+display: flex;
+justify-content:
+align-items:center;
+min-height: 100vh;
+}
+.blob
+{
+	position:absolute;
+	width: 800px;
+	height: 800px;
+}
+.blob:nth-child(2)
+{
+	filter: blur(100px);
 }
 
 /*lapie wszystko co jest*/
