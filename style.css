@@ -109,7 +109,6 @@ body
 	border-top: solid;
 	border-bottom: solid;
 	letter-spacing: 1px;
-	width:
 }
 
 ol
@@ -314,7 +313,7 @@ font-size: 25px;
 .bigboxmp3
 {
 	text-align: right;
-	height:600px;
+	height:650px;
 }
 
 .contentmp3
@@ -632,4 +631,254 @@ padding: 40px;
 	clear:both;
 	margin:0;
 	height:50px;
+}
+
+@media all and (max-width: 320px)
+{
+	.logo
+	{
+		font-size: 22px;
+	}
+
+	.nav
+	{
+		height: 50px;
+		background-color: #090909;
+		text-align: center;
+		border-top: solid;
+		border-bottom: solid;
+		letter-spacing: 1px;
+	}
+
+	.bigboxindex1
+	{
+		text-align: right;
+		height:2050px;
+	}
+	.contentindex1
+	{
+	transform: translate(0%,-10%);
+	width:250px;
+	padding: 20px;
+	padding-bottom:40px;
+	font-size: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.arrow
+	{
+		transform: translate(98%, 120%);
+	}
+
+	.arrow span
+	{
+		width: 8px;
+		height: 8px;
+		margin: -8px;
+	}
+
+	.img
+	{
+		width: 20px;
+		height: 20px;
+	}
+
+	.socials
+	{
+		width: 100%;
+		text-align: center;
+		background-color: #292929;
+		height: 155px;
+		clear: both;
+	}
+
+	.socialdivs
+	{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.fb
+	{
+		width: 250px;
+		height: 155px;
+		float:left;
+	}
+
+	.fb:hover
+	{
+		background-color: #4668b3;
+	}
+
+	.yt
+	{
+		width: 250px;
+		height: 155px;
+		float:left;
+	}
+
+	.yt:hover
+	{
+		background-color: #d94348;
+	}
+
+	.tw
+	{
+		width: 250px;
+		height: 155px;
+		float:left;
+	}
+
+	.tw:hover
+	{
+		background-color: #3095d3;
+	}
+
+	.gplus
+	{
+		width: 250px;
+		height: 155px;
+		float:left;
+	}
+
+	.gplus:hover
+	{
+		background-color: #d95333;
+	}
+
+	.footer
+	{
+		font-size: 10px;
+		clear:both;
+		height:20px;
+	}
+
+}
+
+
+
+@media all and (max-width: 480px)
+{
+	.logo
+	{
+		font-size: 22px;
+	}
+
+	.nav
+	{
+		height: 50px;
+		background-color: #090909;
+		text-align: center;
+		border-top: solid;
+		border-bottom: solid;
+		letter-spacing: 1px;
+	}
+
+	.bigboxindex1
+	{
+		text-align: right;
+		height:2050px;
+	}
+	.contentindex1
+	{
+	transform: translate(0%,-10%);
+	width:250px;
+	padding: 20px;
+	padding-bottom:40px;
+	font-size: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.arrow
+	{
+		transform: translate(98%, 120%);
+	}
+
+	.arrow span
+	{
+		width: 8px;
+		height: 8px;
+		margin: -8px;
+	}
+
+	.img
+	{
+		width: 20px;
+		height: 20px;
+	}
+
+	.socials
+	{
+		width: 100%;
+		text-align: center;
+		background-color: #292929;
+		height: 155px;
+		clear: both;
+	}
+
+	.socialdivs
+	{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.fb
+	{
+		width: 250px;
+		height: 155px;
+		float:left;
+	}
+
+	.fb:hover
+	{
+		background-color: #4668b3;
+	}
+
+	.yt
+	{
+		width: 250px;
+		height: 155px;
+		float:left;
+	}
+
+	.yt:hover
+	{
+		background-color: #d94348;
+	}
+
+	.tw
+	{
+		width: 250px;
+		height: 155px;
+		float:left;
+	}
+
+	.tw:hover
+	{
+		background-color: #3095d3;
+	}
+
+	.gplus
+	{
+		width: 250px;
+		height: 155px;
+		float:left;
+	}
+
+	.gplus:hover
+	{
+		background-color: #d95333;
+	}
+
+	.footer
+	{
+		font-size: 10px;
+		clear:both;
+		height:20px;
+	}
+
 }
