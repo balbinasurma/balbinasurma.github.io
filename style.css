@@ -109,6 +109,7 @@ body
 	border-top: solid;
 	border-bottom: solid;
 	letter-spacing: 1px;
+	position: relative;
 }
 
 ol
@@ -146,8 +147,8 @@ ol > li
 	border-color: white;
 	letter-spacing: 2px;
 	height: 40px;
-
 }
+
 ol > li:first-child
 {
 	border-left: 0.5px solid;
@@ -181,6 +182,73 @@ ol > li > a
 	z-index: 100;
 }
 
+.burger
+{
+	background: transparent;
+	border:none;
+	outline:none;
+	cursor: pointer;
+	display: none;
+}
+
+.line
+{
+	width: 30px;
+	height: 3px;
+	background: white;
+	margin: 6px;
+	border-radius: 20px;
+	transition: .3s ease-in-out;
+}
+
+@media only screen and (max-width:700px)
+{
+	.header
+	{
+		height: 50px;
+		width: 100vh;
+	}
+	.burger
+	{
+		display: block;
+		transition:.3s ease-in-out;
+		transform: translate(1000%,-140%);
+
+	}
+
+	.nav
+	{
+		position:absolute;
+		right: 0;
+		top: 15vh;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		background: #000000;
+		height: 55vh;
+		width: 100%;
+		border:none;
+		background: transparent;
+	}
+
+ol > li
+{
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+	font-size: 15px;
+	border-right: none;
+	letter-spacing: 3px;
+}
+
+
+ol > li:first-child
+{
+	border-left: none;
+	border-color: white;
+	letter-spacing: 3px;
+	margin-top: 30px;
+}
+}
 .bigboxindex1
 {
 	text-align: right;

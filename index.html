@@ -22,12 +22,21 @@
                     <div class="logo">
                             <img src= "ikona.png" style="float:left;width:50px;height:50px"/>
                             Speed<span style= "color: #30d5c8">-Skating-</span>Inline
-                    </div>
+
+                          </div>
+
+
                     <div style="clear:both;"></div>
+                    <button class="burger">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                    </button>
+
             </div>
 
             <div class= "nav">
-                    <ol>
+                    <ol class="active">
                             <li><a href="pp.html">Puchar Polski</a></li>
                             <li><a href="mp.html">Mistrzostwa Polski</a></li>
                             <li><a href="ps.html">Puchar Świata</a></li>
@@ -35,7 +44,18 @@
                             <li><a href="kal.html">Kaledarz zawodów</a></li>
                             <li><a href="blog.html">BLOG</a></li>
                     </ol>
-            </div>
+
+          </div>
+          <script>
+
+          const mobileNav = document.querySelector('.ul');
+          const burgerBtn = document.querySelector('.burger');
+
+          burgerBtn.addEventListener('click', function(){
+            mobileNav.classList.toggle('active');
+          })
+          </script>
+
 
             <script src= "jquery-3.6.0.min.js"></script>
                     <script>
