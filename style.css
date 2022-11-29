@@ -1178,18 +1178,34 @@ padding: 40px;
 		transform: translate(700%,-125%);
 	}
 }
+/*...............................*/
+@media (max-width:480px)
+{
+	.burger
+	{
+		transform: translate(600%,-115%);
+	}
+	.logo
+	{
+		font-size: 25px;
+	}
+}
 
 /*.................................*/
 @media (max-width:430px)
 {
 
+	.burger
+	{
+		transform: translate(480%,-110%);
+	}
 	.header
 	{
 		height: 40px;
 	}
 	.logo
 	{
-		font-size: 20px;
+		font-size: 22px;
 	}
 	.bigboxindex1
 	{
@@ -1272,3 +1288,20 @@ padding: 40px;
 		height:10px;
 	}
 }
+
+/*....................................*/
+@media (max-width:328px)
+{
+
+	.burger
+	{
+		transform: translate(480%,-180%);
+	}
+	.header
+	{
+		height: 40px;
+	}
+	.logo
+	{
+		font-size: 22px;
+	}
