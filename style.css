@@ -882,8 +882,8 @@ padding: 40px;
 	.contentpp2
 	{
 
-		transform: translate(0%,50%);
-		width:400px;
+		transform: translate(0%,30%);
+		width:300px;
 		padding: 30px;
 		padding-bottom:40px;
 		font-size: 18px;
@@ -894,8 +894,8 @@ padding: 40px;
 .contentmp3
 {
 
-	transform: translate(0%,50%);
-	width:400px;
+	transform: translate(0%,40%);
+	width:300px;
 	padding: 30px;
 	padding-bottom:40px;
 	font-size: 18px;
@@ -905,8 +905,8 @@ padding: 40px;
 
 .contentps4
 {
-	transform: translate(10%,50%);
-	width:400px;
+	transform: translate(10%,20%);
+	width:300px;
 	padding: 30px;
 	padding-bottom:40px;
 	font-size: 18px;
@@ -916,8 +916,8 @@ padding: 40px;
 
 .contentms5
 {
-	transform: translate(0%,50%);
-	width:400px;
+	transform: translate(0%,20%);
+	width:300px;
 	padding: 30px;
 	padding-bottom:40px;
 	font-size: 18px;
@@ -927,8 +927,8 @@ padding: 40px;
 
 .contentblog7
 {
-	transform: translate(-70%,-100%);
-	width:400px;
+	transform: translate(-100%,-100%);
+	width:300px;
 	padding: 30px;
 	padding-bottom:40px;
 	font-size: 18px;
