@@ -98,12 +98,33 @@ body
 	margin-bottom: -2px;
 	letter-spacing: 1px;
 	padding: 12px;
-	width: 90vh;
+	width: 62vh;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .logo:hover
+{
+	background-color: #3095d3;
+	border:none;
+	border-radius: 5px;
+}
+
+.logoBlog
+{
+
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: -2px;
+	margin-bottom: -2px;
+	letter-spacing: 1px;
+	padding: 12px;
+	width: 20vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logoBlog:hover
 {
 	background-color: #3095d3;
 	border:none;
@@ -568,7 +589,7 @@ font-size: 25px;
 .bigboxblog7
 {
 	text-align: right;
-	height:650px;
+	height:780px;
 }
 
 .smallboxblog7
@@ -578,7 +599,7 @@ width:1200px;
 }
 .contentblog7
 {
-transform: translate(30%,-110%);
+transform: translate(30%,-75%);
 background: #090909;
 border:none;
 border-radius: 5px;
@@ -687,6 +708,12 @@ padding: 40px;
 
 @media (max-width:1320px)
 {
+
+	.logo
+	{
+		font-size: 25px;
+	}
+
 	.bigboxindex1
 	{
 		text-align: right;
@@ -791,7 +818,7 @@ padding: 40px;
 	{
 		display: block;
 		transition:.3s ease-in-out;
-		transform: translate(1000%,-125%);
+		transform: translate(800%,-125%);
 	}
 	.nav
 	{
@@ -1176,7 +1203,7 @@ padding: 40px;
 		{
 			display: block;
 			transition:.3s ease-in-out;
-			transform: translate(800%,-125%);
+			transform: translate(700%,-125%);
 		}
 
 		.nav
@@ -1212,10 +1239,7 @@ padding: 40px;
 		margin-top: 30px;
 	}
 
-	.logo
-	{
-		font-size: 32px;
-	}
+
 	.bigboxindex1
 	{
 		text-align: right;
