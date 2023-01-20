@@ -236,7 +236,7 @@ ol > li > a
 {
 	width: 100vw;
 	text-align: right;
-	height:650px;
+	height:900px;
 }
 
 .contentindex1
@@ -607,6 +607,13 @@ text-align: justify;
 font-size: 25px;
 width:550px;
 padding: 40px;
+margin-right: 10px;
+
+}
+
+.contentblog7 .img
+{
+	margin-top: 80px;
 }
 
 .socials
@@ -623,13 +630,27 @@ padding: 40px;
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
+
 .icons
 {
 	width: 1000px;
 	height: 120px;
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 30px;
+	text-align: center;
+}
+
+.icon-graduation-cap
+{
+	text-align: center;
+}
+
+.position
+{
+	padding:52px;
 }
 
 .fb
@@ -651,26 +672,38 @@ padding: 40px;
 	float:left;
 }
 
-.tw
+.yt:hover
+{
+	background-color: #c4302b;
+}
+
+.graduation
 {
 	width: 250px;
 	height: 155px;
 	float:left;
+
 }
 
-.tw:hover
+.graduation:hover
 {
 	background-color: #3095d3;
 }
+.icon-graduation-cap
+{
+margin-top:20px;
 
-.gplus
+
+}
+
+.gmail
 {
 	width: 250px;
 	height: 155px;
 	float:left;
 }
 
-.gplus:hover
+.gmail:hover
 {
 	background-color: #d95333;
 }
@@ -761,43 +794,28 @@ padding: 40px;
 
 	.socials
 	{
-		text-align: center;
-		height: 120px;
-	}
-
-	.socialdivs
-	{
-		width: 480px;
-	}
-
-	.icons
-	{
-		width: 480px;
-		height: 120px;
+		height: 700px;
 	}
 
 	.fb
 	{
-		width: 120px;
-		height: 120px;
+		width:100%;
 	}
+
 
 	.yt
 	{
-		width: 120px;
-		height: 120px;
+		width:100%;
 	}
 
-	.tw
+	.graduation
 	{
-		width: 120px;
-		height: 120px;
+			width:100%;
 	}
 
-	.gplus
+	.gmail
 	{
-		width: 120px;
-		height: 120px;
+		width:100%;
 	}
 
 	.footer
@@ -818,7 +836,7 @@ padding: 40px;
 	{
 		display: block;
 		transition:.3s ease-in-out;
-		transform: translate(800%,-125%);
+		transform: translate(1500%,-125%);
 	}
 	.nav
 	{
@@ -905,45 +923,29 @@ padding: 40px;
 
 	.socials
 	{
-		text-align: center;
-		height: 120px;
-	}
-
-	.socialdivs
-	{
-		width: 480px;
-	}
-
-	.icons
-	{
-		width: 480px;
-		height: 120px;
+		height: 600px;
 	}
 
 	.fb
 	{
-		width: 120px;
-		height: 120px;
+		width:100%;
 	}
+
 
 	.yt
 	{
-		width: 120px;
-		height: 120px;
+		width:100%;
 	}
 
-	.tw
+	.graduation
 	{
-		width: 120px;
-		height: 120px;
+			width:100%;
 	}
 
-	.gplus
+	.gmail
 	{
-		width: 120px;
-		height: 120px;
+		width:100%;
 	}
-
 	.footer
 	{
 		font-size: 12px;
@@ -1053,43 +1055,28 @@ padding: 40px;
 
 	.socials
 	{
-		text-align: center;
-		height: 120px;
-	}
-
-	.socialdivs
-	{
-		width: 480px;
-	}
-
-	.icons
-	{
-		width: 480px;
-		height: 120px;
+		height: 600px;
 	}
 
 	.fb
 	{
-		width: 120px;
-		height: 120px;
+		width:100%;
 	}
+
 
 	.yt
 	{
-		width: 120px;
-		height: 120px;
+		width:100%;
 	}
 
-	.tw
+	.graduation
 	{
-		width: 120px;
-		height: 120px;
+			width:100%;
 	}
 
-	.gplus
+	.gmail
 	{
-		width: 120px;
-		height: 120px;
+		width:100%;
 	}
 
 	.footer
@@ -1143,45 +1130,29 @@ padding: 40px;
 
 	.socials
 	{
-		text-align: center;
-		height: 120px;
-	}
-
-	.socialdivs
-	{
-		width: 480px;
-	}
-
-	.icons
-	{
-		width: 480px;
-		height: 120px;
+		height: 600px;
 	}
 
 	.fb
 	{
-		width: 120px;
-		height: 120px;
+		width:100%;
 	}
+
 
 	.yt
 	{
-		width: 120px;
-		height: 120px;
+		width:100%;
 	}
 
-	.tw
+	.graduation
 	{
-		width: 120px;
-		height: 120px;
+			width:100%;
 	}
 
-	.gplus
+	.gmail
 	{
-		width: 120px;
-		height: 120px;
+		width:100%;
 	}
-
 	.footer
 	{
 		font-size: 12px;
@@ -1275,43 +1246,28 @@ padding: 40px;
 	}
 	.socials
 	{
-		text-align: center;
-		height: 80px;
-	}
-
-	.socialdivs
-	{
-		width: 320px;
-	}
-
-	.icons
-	{
-		width: 320px;
-		height: 80px;
+		height: 600px;
 	}
 
 	.fb
 	{
-		width: 80px;
-		height: 80px;
+		width:100%;
 	}
+
 
 	.yt
 	{
-		width: 80px;
-		height: 80px;
+		width:100%;
 	}
 
-	.tw
+	.graduation
 	{
-		width: 80px;
-		height: 80px;
+			width:100%;
 	}
 
-	.gplus
+	.gmail
 	{
-		width: 80px;
-		height: 80px;
+		width:100%;
 	}
 
 	.footer
@@ -1351,6 +1307,32 @@ padding: 40px;
 	margin-left: auto;
 	margin-right: auto;
 	}
+
+.socials
+{
+	height: 600px;
+}
+
+.fb
+{
+	width:100%;
+}
+
+
+.yt
+{
+	width:100%;
+}
+
+.graduation
+{
+		width:100%;
+}
+
+.gmail
+{
+	width:100%;
+}
 }
 /*...............................*/
 @media (max-width:480px)
@@ -1373,6 +1355,32 @@ padding: 40px;
 	{
 		height: 40px;
 		width: 100vw;
+	}
+	.socials
+	{
+		height: 600px;
+	}
+
+
+	.fb
+	{
+		width:100%;
+	}
+
+
+	.yt
+	{
+		width:100%;
+	}
+
+	.graduation
+	{
+			width:100%;
+	}
+
+	.gmail
+	{
+		width:100%;
 	}
 
 }
@@ -1447,43 +1455,28 @@ padding: 40px;
 
 	.socials
 	{
-		text-align: center;
-		height: 80px;
-	}
-
-	.socialdivs
-	{
-		width: 320px;
-	}
-
-	.icons
-	{
-		width: 320px;
-		height: 80px;
+		height: 600px;
 	}
 
 	.fb
 	{
-		width: 80px;
-		height: 80px;
+		width:100%;
 	}
+
 
 	.yt
 	{
-		width: 80px;
-		height: 80px;
+		width:100%;
 	}
 
-	.tw
+	.graduation
 	{
-		width: 80px;
-		height: 80px;
+			width:100%;
 	}
 
-	.gplus
+	.gmail
 	{
-		width: 80px;
-		height: 80px;
+		width:100%;
 	}
 
 	.footer
@@ -1509,3 +1502,29 @@ padding: 40px;
 	{
 		font-size: 22px;
 	}
+	.socials
+	{
+		height: 600px;
+	}
+
+	.fb
+	{
+		width:100%;
+	}
+
+
+	.yt
+	{
+		width:100%;
+	}
+
+	.graduation
+	{
+			width:100%;
+	}
+
+	.gmail
+	{
+		width:100%;
+	}
+	)

@@ -15,20 +15,20 @@
     {
       "uid": "a9862b9d5197886c1ad693ecd7120b31",
       "css": "youtube",
-      "code": 61799,
+      "code": 110,
       "src": "fontawesome"
     },
     {
-      "uid": "627abcdb627cb1789e009c08e2678ef9",
-      "css": "twitter",
-      "code": 61593,
-      "src": "fontawesome"
+      "uid": "b49fa3e57e92b38143e0fdcc5d9a904b",
+      "css": "gmail",
+      "code": 59392,
+      "src": "zocial"
     },
     {
-      "uid": "b945f4ac2439565661e8e4878e35d379",
-      "css": "gplus",
-      "code": 62223,
-      "src": "entypo"
+      "uid": "20fc52f9a88bb7bda023ef209acac095",
+      "css": "graduation-cap",
+      "code": 61853,
+      "src": "fontawesome"
     }
   ]
 }
