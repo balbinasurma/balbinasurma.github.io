@@ -926,6 +926,11 @@ margin-top:20px;
 		height: 600px;
 	}
 
+	.position
+	{
+		text-align: center;
+	}
+
 	.fb
 	{
 		width:100%;
@@ -1033,7 +1038,7 @@ margin-top:20px;
 	margin-left: auto;
 	margin-right: auto;
 }
-.logo
+
 
 	.arrow
 	{
@@ -1056,6 +1061,11 @@ margin-top:20px;
 	.socials
 	{
 		height: 600px;
+	}
+
+	.position
+	{
+		text-align: center;
 	}
 
 	.fb
@@ -1131,6 +1141,11 @@ margin-top:20px;
 	.socials
 	{
 		height: 600px;
+	}
+
+	.position
+	{
+		text-align: center;
 	}
 
 	.fb
@@ -1244,31 +1259,50 @@ margin-top:20px;
 		width: 20px;
 		height: 20px;
 	}
-	.socials
+	.iconsarea
 	{
-		height: 600px;
+		width:100vw;
+		overflow: hidden;
 	}
+		.socials
+		{
+			height:650px;
+				width:10vw;
+			background: black;
+			overflow: hidden;
+		}
+		.socialdivs
+		{
 
-	.fb
-	{
-		width:100%;
-	}
+			width:100vw;
+			text-align: center;
+		}
+		.position
+		{
+				width:50%;
 
+		}
 
-	.yt
-	{
-		width:100%;
-	}
+		.fb
+		{
+			width:51%;
 
-	.graduation
-	{
-			width:100%;
-	}
+		}
 
-	.gmail
-	{
-		width:100%;
-	}
+		.yt
+		{
+			width:51%;
+		}
+
+		.graduation
+		{
+				width:51%;
+		}
+
+		.gmail
+		{
+			width:51%;
+		}
 
 	.footer
 	{
@@ -1307,32 +1341,49 @@ margin-top:20px;
 	margin-left: auto;
 	margin-right: auto;
 	}
+	.iconsarea
+	{
+		width:100vw;
+	}
+		.socials
+		{
+			height:650px;
+				width:10vw;
+			background: black;
+		}
+		.socialdivs
+		{
 
-.socials
-{
-	height: 600px;
-}
+			width:100vw;
+			text-align: center;
+		}
+		.position
+		{
+				width:50%;
 
-.fb
-{
-	width:100%;
-}
+		}
 
+		.fb
+		{
+			width:51%;
 
-.yt
-{
-	width:100%;
-}
+		}
 
-.graduation
-{
-		width:100%;
-}
+		.yt
+		{
+			width:51%;
+		}
 
-.gmail
-{
-	width:100%;
-}
+		.graduation
+		{
+				width:51%;
+		}
+
+		.gmail
+		{
+			width:51%;
+		}
+
 }
 /*...............................*/
 @media (max-width:480px)
@@ -1356,32 +1407,49 @@ margin-top:20px;
 		height: 40px;
 		width: 100vw;
 	}
-	.socials
+	.iconsarea
 	{
-		height: 600px;
+		width:100vw;
 	}
+		.socials
+		{
+			height:650px;
+				width:10vw;
+			background: black;
+		}
+		.socialdivs
+		{
 
+			width:100vw;
+			text-align: center;
+		}
+		.position
+		{
+				width:50%;
 
-	.fb
-	{
-		width:100%;
-	}
+		}
 
+		.fb
+		{
+			width:51%;
 
-	.yt
-	{
-		width:100%;
-	}
+		}
 
-	.graduation
-	{
-			width:100%;
-	}
+		.yt
+		{
+			width:51%;
+		}
 
-	.gmail
-	{
-		width:100%;
-	}
+		.graduation
+		{
+				width:51%;
+		}
+
+		.gmail
+		{
+			width:51%;
+		}
+
 
 }
 
@@ -1453,36 +1521,54 @@ margin-top:20px;
 		height: 20px;
 	}
 
+.iconsarea
+{
+	width:100vw;
+}
 	.socials
 	{
-		height: 600px;
+		height:650px;
+			width:10vw;
+		background: black;
+	}
+	.socialdivs
+	{
+
+		width:100vw;
+		text-align: center;
+	}
+	.position
+	{
+			width:50%;
+
 	}
 
 	.fb
 	{
-		width:100%;
-	}
+		width:51%;
 
+	}
 
 	.yt
 	{
-		width:100%;
+		width:51%;
 	}
 
 	.graduation
 	{
-			width:100%;
+			width:51%;
 	}
 
 	.gmail
 	{
-		width:100%;
+		width:51%;
 	}
 
 	.footer
 	{
 		font-size: 10px;
 		height:10px;
+		clear: both;
 	}
 }
 
@@ -1505,6 +1591,11 @@ margin-top:20px;
 	.socials
 	{
 		height: 600px;
+	}
+
+	.position
+	{
+		text-align: center;
 	}
 
 	.fb
