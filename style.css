@@ -1188,7 +1188,7 @@ margin-top:20px;
 
 		.burger
 		{
-			display: block;
+			display: none;
 			transition:.3s ease-in-out;
 			transform: translate(700%,-125%);
 		}
