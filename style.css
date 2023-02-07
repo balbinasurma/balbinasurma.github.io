@@ -81,7 +81,7 @@ body
 	position:absolute;
 	width: 800px;
 	height: 500px;
-	transform: translate(20%, 10%);
+	transform: translate(-20%, 10%);
 }
 
 .blob:nth-child(2)
@@ -589,13 +589,19 @@ font-size: 25px;
 .bigboxblog7
 {
 	text-align: right;
-	height:780px;
+	height:680px;
+	padding-top: 40px;
 }
 
 .smallboxblog7
 {
-margin-top: 50px;
+
 width:1200px;
+height:200px;
+}
+#myphoto
+{
+	padding-top: 50px;
 }
 .contentblog7
 {
@@ -608,8 +614,10 @@ font-size: 25px;
 width:550px;
 padding: 40px;
 margin-right: 10px;
+margin:0px;
 
 }
+
 
 .contentblog7 .img
 {
