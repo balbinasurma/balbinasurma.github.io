@@ -571,20 +571,144 @@ font-size: 25px;
 
 .bigboxkal6
 {
-	padding: 100px;
-	height: 650px;
-	width: 1300px;
+	display: flex;
+	padding:50px;
+	flex-direction: column;
+	height: 3000px;
+	justify-content: space-around;
+	
 }
 
-.contentkal6
+.contentkal6a 
 {
-transform: translate(70%,0%);
 background: #090909;
 border:none;
 border-radius: 5px;
-text-align: justify;
-font-size: 25px;
+padding: 40px;
+font-size: 20px;
 }
+.contentkal6b
+{
+background: #090909;
+border:none;
+border-radius: 5px;
+padding: 40px;
+font-size: 20px;
+}
+.contentkal6c
+{
+background: #090909;
+border:none;
+border-radius: 5px;
+padding: 40px;
+font-size: 20px;
+}
+.contentkal6d
+{
+background: #090909;
+border:none;
+border-radius: 5px;
+padding: 40px;	
+font-size: 20px;
+}
+.contentkal6e
+{
+background: #090909;
+border:none;
+border-radius: 5px;
+padding: 40px;
+font-size: 20px;
+}
+.contentkal6f
+{
+background: #090909;
+border:none;
+border-radius: 5px;
+padding: 40px;
+font-size: 20px;
+}
+.contentkal6g
+{
+background: #090909;
+border:none;
+border-radius: 5px;
+padding: 40px;
+font-size: 20px;
+}
+.contentkal6h
+{
+background: #090909;
+border:none;
+border-radius: 5px;
+padding: 40px;
+font-size: 20px;
+}
+.contentkal6i
+{
+background: #090909;
+border:none;
+border-radius: 5px;
+padding: 40px;
+font-size: 20px;
+}
+
+.contentkal6j
+{
+background: #090909;
+border:none;
+border-radius: 5px;
+padding: 40px;
+font-size: 20px;
+}
+.contentkal6k
+{
+background: #090909;
+border:none;
+border-radius: 5px;
+padding: 40px;
+font-size: 20px;
+}
+.contentkal6l
+{
+background: #090909;
+border:none;
+border-radius: 5px;
+padding: 40px;
+font-size: 20px;
+}
+.contentkal6m
+{
+background: #090909;
+border:none;
+border-radius: 5px;
+padding: 40px;
+font-size: 20px;
+}
+.contentkal6n
+{
+background: #090909;
+border:none;
+border-radius: 5px;
+padding: 40px;
+font-size: 20px;
+}
+.contentkal6o
+{
+background: #090909;
+border:none;
+border-radius: 5px;
+padding: 40px;
+font-size: 20px;
+}
+.contentkal6p
+{
+background: #090909;
+border:none;
+border-radius: 5px;
+padding: 40px;
+font-size: 20px;
+}
+
 
 .bigboxblog7
 {
