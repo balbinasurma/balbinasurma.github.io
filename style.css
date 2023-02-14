@@ -709,27 +709,45 @@ padding: 40px;
 font-size: 20px;
 }
 
+.button {
+	background-color: #c4302b;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 8px;
+  }
 
+  .button:hover
+{
+	  background-color: red;
+}
+
+.bigboxkal6 span
+{
+	color: #c4302b;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
 .bigboxblog7
 {
-	text-align: right;
-	height:680px;
-	padding-top: 40px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
 }
 
 .smallboxblog7
 {
-
-width:1200px;
-height:200px;
+	padding: 50px;
 }
 #myphoto
 {
-	padding-top: 50px;
+	
 }
 .contentblog7
 {
-transform: translate(30%,-75%);
 background: #090909;
 border:none;
 border-radius: 5px;
@@ -738,16 +756,24 @@ font-size: 25px;
 width:550px;
 padding: 40px;
 margin-right: 10px;
-margin:0px;
+margin:30px;
+height: 450px;
 
 }
 
 
-.contentblog7 .img
+@media (max-width:980px)
 {
-	margin-top: 80px;
+	.bigboxblog7
+{
+	display: flex;
+	flex-direction: column;
+	
+	height: 2000px;
+	align-items: center;
+	font-size: 10px;
 }
-
+}
 .socials
 {
 	width: 100vw;
@@ -1549,6 +1575,11 @@ margin-top:20px;
 	.iconsarea
 	{
 		width:100vw;
+	}
+
+	.bigboxkal6
+	{
+		min-height: 5000px;
 	}
 		.socials
 		{
