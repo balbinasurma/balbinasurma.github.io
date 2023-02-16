@@ -433,23 +433,21 @@ font-size: 25px;
 .boxps4
 {
 	display: flex;
-	justify-content: space-around;
-	
+	flex-direction: row;
+	margin: 40px;
 }
 
 .contentps4
 {
-
+max-width: 750px;
 background: #090909;
 border:none;
 border-radius: 5px;
-
 padding: 40px;
-margin: 60px;
+margin-right: 40px;
+margin-bottom: 40px;
 text-align: justify;
 font-size: 25px;
-
-
 }
 
 @media (max-width:1320px)
@@ -458,6 +456,7 @@ font-size: 25px;
 	{
 	flex-direction: column;
 	align-items: center;
+	padding-bottom: 50px;
 	}
 }
 .arrow4
@@ -469,8 +468,8 @@ font-size: 25px;
 .arrow4 span
 {
 	display: block;
-	width: 15px;
-	height: 15px;
+	width: 8px;
+	height: 8px;
 	border-bottom: 5px solid #06A8FF;
 	border-right: 5px solid #06A8FF;
 	transform: rotate(45deg);
@@ -505,15 +504,6 @@ font-size: 25px;
 		transform: rotate(45deg) translate(-20px -20px);
 	}
 }
-
-.videob
-{
-background: #090909;
-
-}
-
-
-
 
 .bigboxms5
 {
@@ -789,6 +779,12 @@ margin:20px;
 	height:300px;
 	width:250px;
 	margin: 30px;;
+}
+.contentps4
+{
+padding: 20px;
+margin: 20px;
+font-size: 15px;
 }
 }
 
