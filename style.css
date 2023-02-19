@@ -24,6 +24,7 @@ body
 	padding-bottom: 8px;
 	background-image: linear-gradient(230deg, #020024 0%, #090979 35%, #00d4ff 100%);
 }
+
 .headerindex
 {
 	display: flex;
@@ -31,98 +32,14 @@ body
 	padding-top: 8px;
 	padding-bottom: 8px;
 	background-image: linear-gradient(230deg, #020024 0%, #090979 35%, #00d4ff 100%);
-	
-}
-
-.socials
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-.position
-{
-	text-align: center;
-	padding-top: 65px;
-}
-
-.blob1
-{
-	position:absolute;
-	width: 800px;
-	height: 800px;
-	transform: translate(5%, 10%);
-}
-
-.blob2
-{
-	position:absolute;
-	width: 800px;
-	height: 750px;
-}
-
-.section
-{
-	display: flex;
-}
-
-.blob3
-{
-	position:absolute;
-	width: 800px;
-	height: 500px;
-	transform: translate(5%, 10%);
-}
-
-.blob4
-{
-	position:absolute;
-	width: 800px;
-	height: 500px;
-	display: none;
-}
-
-.blob5
-{
-	position:absolute;
-	width: 800px;
-	height: 500px;
-	transform: translate(5%, 5%);
-}
-
-.blob6
-{
-	position:absolute;
-	width: 800px;
-	height: 800px;
-	transform: translate(5%, 10%);
-}
-
-.blob7
-{
-	position:absolute;
-	width: 800px;
-	height: 500px;
-	transform: translate(-20%, 10%);
-	display: none;
-}
-
-.blob:nth-child(2)
-{
-	filter: blur(100px);
 }
 
 .logo
 {
-	font-size: 28px;
+	font-size: 23px;
 	font-weight: bold;
-	margin-top: -2px;
-	margin-bottom: -2px;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	padding: 6px;
-	width: 40vh;
-	
 }
 
 .logo:hover
@@ -134,16 +51,12 @@ body
 
 .logoBlog
 {
-	width: 20vh;
-	font-size: 30px;
+	width: 12vh;
+	font-size: 23px;
 	font-weight: bold;
-	margin-top: -2px;
-	margin-bottom: -2px;
-	letter-spacing: 2px;
-	padding: 10px;
+	letter-spacing: 3px;
+	padding: 6px;
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .logoBlog:hover
@@ -253,12 +166,80 @@ ol > li > a
 	transition: .3s ease-in-out;
 }
 
-.bigboxindex1
+
+.blob1
+{
+	position:absolute;
+	width: 800px;
+	height: 800px;
+	transform: translate(5%, 10%);
+}
+
+.blob2
+{
+	position:absolute;
+	width: 800px;
+	height: 750px;
+}
+
+.section
+{
+	display: flex;
+}
+
+.blob3
+{
+	position:absolute;
+	width: 800px;
+	height: 500px;
+	transform: translate(5%, 10%);
+}
+
+.blob4
+{
+	position:absolute;
+	width: 800px;
+	height: 500px;
+	display: none;
+}
+
+.blob5
+{
+	position:absolute;
+	width: 800px;
+	height: 500px;
+	transform: translate(5%, 5%);
+}
+
+.blob6
+{
+	position:absolute;
+	width: 800px;
+	height: 800px;
+	transform: translate(5%, 10%);
+}
+
+.blob7
+{
+	position:absolute;
+	width: 800px;
+	height: 500px;
+	transform: translate(-20%, 10%);
+	display: none;
+}
+
+.blob:nth-child(2)
+{
+	filter: blur(100px);
+}
+
+
+.boxindex1
 {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row-reverse;
-	padding-left: 30px;
+	
 }
 
 .contentindex1
@@ -268,10 +249,12 @@ ol > li > a
 	border-radius: 5px;
 	padding: 40px;
 	text-align: justify;
-	font-size: 25px;
+	font-size: 20px;
 	margin-top: 40px;
-	margin-bottom: 140px;
-	margin-right: 40px;
+	margin-bottom: 300px;
+	margin-right: 20px;
+	margin-left: 20px;
+	line-height: 30px;
 }
 
 .arrow
@@ -336,7 +319,8 @@ ol > li > a
 	margin-top: 65px;
 	padding: 40px;
 	text-align: justify;
-	font-size: 25px;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 .arrow2
@@ -401,7 +385,8 @@ ol > li > a
 	padding: 40px;
 	margin-top: 50px;
 	text-align: justify;
-	font-size: 25px;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 .arrow3
@@ -465,9 +450,10 @@ ol > li > a
 	border-radius: 5px;
 	padding: 40px;
 	margin-right: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 100px;
 	text-align: justify;
-	font-size: 25px;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 .arrow4
@@ -531,7 +517,8 @@ ol > li > a
 	margin-top: 100px;
 	padding: 40px;
 	text-align: justify;
-	font-size: 25px;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 .arrow5
@@ -582,154 +569,141 @@ transform: rotate(45deg) translate(-20px -20px);
 
 .bigboxkal6
 {
-display: flex;
-padding:50px;
-flex-direction: column;
-justify-content: space-around;
+	display: flex;
+	padding:50px;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 3500px;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 .contentkal6a 
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
 }
 
 .contentkal6b
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
 }
 
 .contentkal6c
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
 }
 
 .contentkal6d
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;	
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;	
 }
 
 .contentkal6e
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
 }
 
 .contentkal6f
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
 }
 
 .contentkal6g
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
 }
 
 .contentkal6h
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
 }
 
 .contentkal6i
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
 }
 
 .contentkal6j
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
 }
 
 .contentkal6k
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
 }
 
 .contentkal6l
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
 }
 
 .contentkal6m
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
 }
 
 .contentkal6n
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
 }
 
 .contentkal6o
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
 }
 
 .contentkal6p
 {
-background: #090909;
-border:none;
-border-radius: 5px;
-padding: 40px;
-font-size: 20px;
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
 }
 
 .button 
@@ -758,16 +732,16 @@ font-size: 20px;
 
 .boxblog7
 {
-	padding: 10px;
 	display: flex;
-	flex-direction: row;
+	margin: 50px;
+	margin-bottom: 400px;
+	height: 1100px;
 }
 
 #myphoto
 {
 	height:400px;
 	width:340px;
-	margin: 30px;;
 }
 
 .contentblog77
@@ -776,15 +750,22 @@ font-size: 20px;
 	border:none;
 	border-radius: 5px;
 	text-align: justify;
-	font-size: 25px;
+	font-size: 20px;
 	padding: 40px;
-	margin:20px;
+	margin-left: 40px;
+	line-height: 30px;
 }
 
 .socials
 {
 	display: flex;
-	align-content: center;
+	justify-content: center;
+}
+
+.position
+{
+	text-align: center;
+	padding-top: 65px;
 }
 
 .icon-graduation-cap
@@ -847,13 +828,13 @@ font-size: 20px;
 	display: flex;
 	justify-content: center;
 	background-color: #222222;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	font-size: 12px;
-	height:20px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	font-size: 10px;
 	width: 100%;
 	overflow: hidden;
 }
+
 
 
 /******************************************************MEDIA START!!!!!!!!!!!!!!!!!!!!**********1320px*************************************************************/
@@ -861,17 +842,12 @@ font-size: 20px;
 @media (max-width:1320px)
 {
 
-.boxps4
+.boxindex1
 {
 	flex-direction: column;
-	align-items: center;
-	padding-bottom: 50px;
-}
-
-.bigboxindex1
-{
 	text-align: right;
 }
+
 .contentpp2
 {
 	transform: translate(0%,30%);
@@ -881,6 +857,13 @@ font-size: 20px;
 	font-size: 25px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.boxps4
+{
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 50px;
 }
 
 .arrow
@@ -931,11 +914,7 @@ ol > li:first-child
 	letter-spacing: 3px;
 	margin-top: 30px;
 }
-.bigboxindex1
-{
-	flex-direction: column;
-	text-align: right;
-}
+
 }
 
 
@@ -948,15 +927,6 @@ ol > li:first-child
 	display: block;
 	transition:.3s ease-in-out;
 	transform: translate(1500%,-125%);
-}
-
-
-
-.contentindex1
-{
-	padding: 30px;
-	padding-bottom:40px;
-	font-size: 20px;
 }
 
 .contentpp2
@@ -988,8 +958,6 @@ ol > li:first-child
 	width: 20px;
 	height: 20px;
 }
-
-
 
 }
 
@@ -1055,7 +1023,10 @@ ol > li:first-child
 	flex-direction: column;
 	font-size: 10px;
 	align-items: center;
+	display: flex;
+	margin: 18px;
 }
+
 .contentblog77
 {
 	margin:0px;
@@ -1095,7 +1066,7 @@ font-size: 15px;
 
 /*.................................................................................700px.............*/
 
-@media only screen and (max-width:700px)
+@media (max-width:700px)
 {
 
 .burger
@@ -1154,6 +1125,21 @@ ol > li:first-child
 @media (max-width:547px)
 {
 
+	.logo
+{
+	font-size: 18px;
+}
+
+
+.contentindex1
+{
+	padding: 20px;
+	font-size: 15px;
+	margin-left:10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
 .blob2
 {
 	width: 800px;
@@ -1176,16 +1162,99 @@ ol > li:first-child
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.bigboxkal6
+{
+	padding:15px;
+	font-size: 15px;
+}
+.contentkal6a
+{
+	padding:10px;
+}
+
+.contentkal6b
+{
+	padding:10px;
+}
+
+.contentkal6c
+{
+	padding:10px;
+}
+
+.contentkal6ad
+{
+	padding:10px;
+}
+
+.contentkal6e
+{
+	padding:10px;
+}
+
+.contentkal6f
+{
+	padding:10px;
+}
+.contentkal6g
+{
+	padding:10px;
+}
+
+.contentkal6h
+{
+	padding:10px;
+}
+
+.contentkal6i
+{
+	padding:10px;
+}
+
+.contentkal6j
+{
+	padding:10px;
+}
+
+.contentkal6k
+{
+	padding:10px;
+}
+
+.contentkal6l
+{
+	padding:10px;
+}
+
+.contentkal6m
+{
+	padding:10px;
+}
+
+.contentkal6n
+{
+	padding:10px;
+}
+
+.contentkal6o
+{
+	padding:10px;
+}
+
+.contentkal6p
+{
+	padding:10px;
+}
+
 }
 
 /*.......................................................................................................480px..............*/
 @media (max-width:480px)
 {
-.logo
-{
-	font-size: 23px;
-}
 
+
+	
 }
 
 /*...................................................................................................................430px..................*/
