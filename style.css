@@ -180,6 +180,7 @@ ol > li > a
 	position:absolute;
 	width: 800px;
 	height: 750px;
+	display: none;
 }
 
 .section
@@ -307,21 +308,21 @@ ol > li > a
 {
 	display: flex;
 	justify-content: center;
-	height:650px;
-	padding-bottom: 800px;
+	margin-top: 60px;
 }
 
 .contentpp2
 {
+	
 	background: #090909;
 	border:none;
 	border-radius: 5px;
 	width:820px;
-	margin-top: 200px;
 	padding: 40px;
 	text-align: justify;
 	font-size: 20px;
 	line-height: 30px;
+	max-height: 500px;
 }
 
 .arrow2
@@ -849,17 +850,6 @@ transform: rotate(45deg) translate(-20px -20px);
 	text-align: right;
 }
 
-.contentpp2
-{
-	transform: translate(0%,30%);
-	width:400px;
-	padding: 30px;
-	padding-bottom:40px;
-	font-size: 25px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .boxps4
 {
 	flex-direction: column;
@@ -930,16 +920,20 @@ ol > li:first-child
 	transform: translate(1500%,-125%);
 }
 
+.bigboxpp2
+{
+	margin-top: 60px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
 .contentpp2
 {
-
-	transform: translate(0%,30%);
-	width:400px;
-	padding: 30px;
-	padding-bottom:40px;
-	font-size: 18px;
-	margin-left: auto;
-	margin-right: auto;
+	padding: 20px;
+	font-size: 15px;
+	line-height: 30px;
+	max-height: 300px;
+	
 }
 
 .arrow
