@@ -946,8 +946,20 @@ ol > li:first-child
 
 .contentmp3
 {
-	padding: 20px;
-	
+    padding: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.contentms5
+{
+    padding: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .boxps4
@@ -958,8 +970,12 @@ ol > li:first-child
 
 .contentps4
 {
+	max-height: 400px;
 	padding: 20px;
-	max-height: 300px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .arrow
@@ -1044,9 +1060,12 @@ ol > li:first-child
 .contentps4
 {
 padding: 20px;
-margin: 20px;
+margin-left: 10px;
+margin-right: 10px;
+padding-bottom: 60px;
 font-size: 15px;
 }
+
 }
 
 /*......................................................................................................860px............*/
