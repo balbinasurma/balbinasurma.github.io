@@ -761,6 +761,30 @@ transform: rotate(45deg) translate(-20px -20px);
 	padding: 40px;
 }
 
+.GIC1
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.GIC2
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.GIC3
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
 .button 
 {
 	background-color: #c4302b;
@@ -1327,6 +1351,19 @@ ol > li:first-child
 	padding:10px;
 }
 .WIC6
+{
+	padding:10px;
+}
+
+.GIC1
+{
+	padding:10px;
+}
+.GIC2
+{
+	padding:10px;
+}
+.GIC3
 {
 	padding:10px;
 }
