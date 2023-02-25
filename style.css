@@ -581,7 +581,7 @@ transform: rotate(45deg) translate(-20px -20px);
 	flex-direction: column;
 	justify-content: space-around;
 	height: 5000px;
-	font-size: 20px;
+	font-size: 15px;
 	line-height: 30px;
 }
 
