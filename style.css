@@ -331,16 +331,17 @@ ol > li > a
 	max-height: 300px;
 }
 
-.galerypp
+.galerymp
 {
 	display: flex;
 	justify-content: center;
-	margin:30px;
+	margin:60px;
 }
 #photoGdansk
 {
 	width:400px;
 	height: 500px;
+	margin:40px;
 }
 
 .boxmp3
@@ -348,6 +349,8 @@ ol > li > a
 	display: flex;
 	justify-content: center;
 	margin-top: 60px;
+	max-height: 300px;
+	margin-bottom: 80px;
 }
 
 .contentmp3
@@ -838,7 +841,6 @@ ol > li:first-child
 {
 	margin-left: 5px;
 	margin-right: 5px;
-	max-height: 800px;
 }
 
 .contentmp3
