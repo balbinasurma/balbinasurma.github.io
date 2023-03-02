@@ -344,6 +344,19 @@ ol > li > a
 	margin:40px;
 }
 
+.galeryindex
+{
+	display: flex;
+	justify-content: center;
+	margin:60px;
+}
+#photoindex
+{
+	width:360px;
+	height: 285px;
+	margin:10px;
+}
+
 .boxmp3
 {
 	display: flex;
@@ -1043,6 +1056,15 @@ ol > li:first-child
 	margin-top: 10px;
 }
 
+
+.galeryindex
+{
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	margin:10px;
+}
+
 .movie video
 {
 	width: 300px;
@@ -1184,6 +1206,21 @@ ol > li:first-child
 	padding:10px;
 }
 .GIC3
+{
+	padding:10px;
+}
+
+.u1
+{
+	padding:10px;
+}
+
+.u2
+{
+	padding:10px;
+}
+
+.u3
 {
 	padding:10px;
 }
