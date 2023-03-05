@@ -433,7 +433,7 @@ ol > li > a
 	padding:50px;
 	flex-direction: column;
 	justify-content: space-around;
-	height: 5500px;
+	height: 8000px;
 	font-size: 15px;
 	line-height: 30px;
 }
@@ -662,6 +662,80 @@ ol > li > a
 	padding: 40px;
 }
 
+.euI
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euII
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euIII
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euIV
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euV
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euVI
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euVII
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euVIII
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.euIX
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+
+
 .button 
 {
 	background-color: #c4302b;
@@ -705,7 +779,7 @@ ol > li > a
 	border:none;
 	border-radius: 5px;
 	text-align: justify;
-	font-size: 20px;
+	font-size: 15px;
 	padding: 40px;
 	margin-left: 40px;
 	line-height: 30px;
@@ -1227,6 +1301,53 @@ ol > li:first-child
 {
 	padding:10px;
 }
+
+.euI
+{
+	padding:10px;
+}
+
+.euII
+{
+	padding:10px;
+}
+
+.euIII
+{
+	padding:10px;
+}
+
+.euIV
+{
+	padding:10px;
+}
+
+.euV
+{
+	padding:10px;
+}
+
+.euVI
+{
+	padding:10px;
+}
+
+.euVII
+{
+	padding:10px;
+}
+
+.euVIII
+{
+	padding:10px;
+}
+
+.euIX
+{
+	padding:10px;
+}
+
+
 }
 
 /*.......................................................................................................480px..............*/
