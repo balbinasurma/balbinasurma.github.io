@@ -433,7 +433,7 @@ ol > li > a
 	padding:50px;
 	flex-direction: column;
 	justify-content: space-around;
-	height: 8000px;
+	height: 9000px;
 	font-size: 15px;
 	line-height: 30px;
 }
@@ -727,6 +727,46 @@ ol > li > a
 }
 
 .euIX
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.meI
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.meII
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.mśI
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.mśII
+{
+	background: #090909;
+	border:none;
+	border-radius: 5px;
+	padding: 40px;
+}
+
+.pruszcz
 {
 	background: #090909;
 	border:none;
@@ -1345,6 +1385,31 @@ ol > li:first-child
 .euIX
 {
 	padding:10px;
+}
+
+.meI
+{
+	padding: 10px;
+}
+
+.meII
+{
+	padding: 10px;
+}
+
+.mśI
+{
+	padding: 10px;
+}
+
+.mśII
+{
+	padding: 10px;
+}
+
+.pruszcz
+{
+	padding: 10px;
 }
 
 
