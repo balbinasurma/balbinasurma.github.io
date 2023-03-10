@@ -86,6 +86,50 @@ body
 	border-radius: 5px;
 }
 
+.galleryblog
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+#zdjblog
+{
+	width:400px;
+	height: 275px;
+	margin:5px;
+	border-radius: 7px;
+}
+#zdjblog5
+{
+	
+	height: 490px;
+	margin:5px;
+	border-radius: 7px;
+	width:380px;
+}
+
+#zdjblog4
+{
+	
+	height: 490px;
+	margin:5px;
+	border-radius: 7px;
+	width:350px;
+}
+
+#zdjblog3
+{
+	
+	height: 490px;
+	margin:5px;
+	border-radius: 7px;
+	width:320px;
+}
+
+
+
 .nav
 {
 	height: 50px;
@@ -864,6 +908,7 @@ ol > li > a
 {
 	display: flex;
 	margin: 50px;
+	margin-bottom: 0px;
 	
 }
 
