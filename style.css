@@ -37,9 +37,14 @@ body
 .logo
 {
 	font-size: 23px;
-	font-weight: bold;
-	letter-spacing: 2px;
+	font-weight:;
+	letter-spacing: 1px;
 	padding: 6px;
+}
+
+#logos
+{
+	font-weight: bold;
 }
 
 .logo:hover
@@ -103,7 +108,6 @@ body
 }
 #zdjblog5
 {
-	
 	height: 490px;
 	margin:5px;
 	border-radius: 7px;
@@ -112,7 +116,6 @@ body
 
 #zdjblog4
 {
-	
 	height: 490px;
 	margin:5px;
 	border-radius: 7px;
