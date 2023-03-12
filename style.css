@@ -96,7 +96,7 @@ body
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	
+	margin-top: 40px;
 }
 
 #zdjblog
@@ -104,13 +104,11 @@ body
 	width:400px;
 	height: 275px;
 	margin:5px;
-	border-radius: 7px;
 }
 #zdjblog5
 {
 	height: 490px;
 	margin:5px;
-	border-radius: 7px;
 	width:380px;
 }
 
@@ -118,8 +116,7 @@ body
 {
 	height: 490px;
 	margin:5px;
-	border-radius: 7px;
-	width:350px;
+	width:340px;
 }
 
 #zdjblog3
@@ -127,8 +124,7 @@ body
 	
 	height: 490px;
 	margin:5px;
-	border-radius: 7px;
-	width:320px;
+	width:310px;
 }
 
 
@@ -321,8 +317,8 @@ ol > li > a
 	background: #090909;
 	border:none;
 	border-radius: 5px;
-	padding: 40px;
-	text-align: justify;
+	padding: 25px;
+	text-align: left;
 	font-size: 15px;
 	margin-top: 40px;
 	margin-bottom: 20px;
@@ -391,8 +387,8 @@ ol > li > a
 	border:none;
 	border-radius: 5px;
 	width:820px;
-	padding: 40px;
-	text-align: justify;
+	padding: 25px;
+	text-align: left;
 	font-size: 15px;
 	line-height: 30px;
 	max-height: 300px;
@@ -442,11 +438,11 @@ ol > li > a
 	border:none;
 	border-radius: 5px;
 	width:800px;
-	padding: 40px;
-	text-align: justify;
+	padding: 25px;
+	text-align: left;
 	font-size: 15px;
 	line-height: 30px;
-	margin-bottom: 750px;
+	margin-bottom: 40px;
 	height: 330px;
 }
 
@@ -464,7 +460,7 @@ ol > li > a
 	background: #090909;
 	border:none;
 	border-radius: 5px;
-	padding: 40px;
+	padding: 25px;
 	margin-top: 40px;
 	margin-right: 40px;
 	margin-bottom: 100px;
@@ -487,8 +483,8 @@ ol > li > a
 	border:none;
 	border-radius: 5px;
 	width:800px;
-	padding: 40px;
-	text-align: justify;
+	padding: 25px;
+	text-align: left;
 	font-size: 15px;
 	line-height: 30px;
 	margin-bottom: 700px;
@@ -912,7 +908,7 @@ ol > li > a
 	display: flex;
 	margin: 50px;
 	margin-bottom: 0px;
-	
+	height: 450px;
 }
 
 #myphoto
@@ -926,12 +922,12 @@ ol > li > a
 	background: #090909;
 	border:none;
 	border-radius: 5px;
-	text-align: justify;
+	text-align: left;
 	font-size: 15px;
-	padding: 40px;
+	padding: 25px;
 	margin-left: 40px;
 	line-height: 30px;
-	margin-bottom: 300px;
+	margin-bottom: 45px;
 }
 
 .socials
@@ -1146,6 +1142,11 @@ ol > li:first-child
 	height: 20px;
 }
 
+.galleryblog
+{
+	margin-top: 380px;
+}
+
 }
 
 
@@ -1191,7 +1192,7 @@ ol > li:first-child
 	margin:0px;
 	font-size: 15px;
 	padding:20px;
-	margin-bottom: 300px;
+	margin-bottom: 100px;
 }
 #myphoto
 {
