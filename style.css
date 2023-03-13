@@ -57,20 +57,25 @@ body
 .translate
 {
 	background-image: linear-gradient(230deg, #020024 0%, #090979 50%, #00d4ff 110%);
-	border-radius: 3px;
+	border-radius: 20px;
 	font-size: 14px;
 	padding: 3px 10px;
 	color: white;
 }
 
+.translate:focus 
+{ 
+border: none; 
+outline: none; 
+}
+
 .translate:hover
 {
-	background-color: #FF0000;
+	background: #FF0000;
     color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-	border-radius:3px;
     margin-top: 0px;
 }
 
@@ -417,10 +422,9 @@ ol > li > a
 }
 #photoindex
 {
-	width:360px;
+	width:350px;
 	height: 275px;
 	margin:5px;
-	border-radius: 7px;
 }
 
 .boxmp3
@@ -908,13 +912,13 @@ ol > li > a
 	display: flex;
 	margin: 50px;
 	margin-bottom: 0px;
-	height: 450px;
+	height: 400px;
 }
 
-#myphoto
-{
-	height:400px;
-	width:340px;
+#myphoto {
+    height: 300px;
+    width: 250px;
+    margin: 30px;
 }
 
 .contentblog77
@@ -1144,7 +1148,7 @@ ol > li:first-child
 
 .galleryblog
 {
-	margin-top: 380px;
+	margin-top: 500px;
 }
 
 }
@@ -1194,12 +1198,7 @@ ol > li:first-child
 	padding:20px;
 	margin-bottom: 100px;
 }
-#myphoto
-{
-	height:300px;
-	width:250px;
-	margin: 30px;;
-}
+
 .contentps4
 {
 padding: 20px;
