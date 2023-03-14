@@ -61,12 +61,8 @@ body
 	font-size: 14px;
 	padding: 3px 10px;
 	color: white;
-}
-
-.translate:focus 
-{ 
-border: none; 
-outline: none; 
+	border: none;
+	outline: none;
 }
 
 .translate:hover
