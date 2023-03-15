@@ -128,6 +128,27 @@ body
 	width:310px;
 }
 
+#leg
+{
+	
+	height: 290px;
+	margin:5px;
+	width:400px;
+}
+
+
+.galleryps
+{
+	display: flex;
+}
+
+#berlin
+{
+	
+	height: 450px;
+	margin:30px;
+	width: 360px;
+}
 
 
 .nav
