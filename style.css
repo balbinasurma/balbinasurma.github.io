@@ -135,6 +135,17 @@ body
 	width:400px;
 }
 
+#champion
+{
+	height: 50px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.iconachampion
+{
+	display: flex;
+}
+
 
 .galleryps
 {
@@ -1024,7 +1035,7 @@ ol > li > a
 	background-color: #222222;
 	padding-top: 18px;
 	padding-bottom: 18px;
-	font-size: 10px;
+	font-size: 8px;
 	width: 100%;
 	overflow: hidden;
 }
