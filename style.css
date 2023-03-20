@@ -137,14 +137,17 @@ body
 
 #champion
 {
-	height: 50px;
+	height: 30px;
 	margin-left: 20px;
-	margin-top: 10px;
+	margin-top: 20px;
+	-webkit-filter: invert(100%);
 }
 .iconachampion
 {
 	display: flex;
 }
+
+
 
 
 .galleryps
