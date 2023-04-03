@@ -10,6 +10,11 @@ body
 	overflow-x: hidden;
 }
 
+#particles-js
+{
+	height: 100vh;	
+}
+
 .wrapper
 {
 	height: 100vh;
@@ -449,12 +454,14 @@ ol > li > a
 	margin:60px;
 	margin-top: 0px;
 	flex-wrap: wrap;
+	z-index: -1;
 }
 #photoindex
 {
 	width:350px;
 	height: 275px;
 	margin:5px;
+	z-index: 2;
 }
 
 .boxmp3
@@ -985,6 +992,7 @@ ol > li > a
 {
 	width: 250px;
 	height: 155px;
+	z-index: 2;
 }
 
 .fb:hover
@@ -997,6 +1005,7 @@ ol > li > a
 	width: 250px;
 	height: 155px;
 	float:left;
+	z-index: 2;
 }
 
 .yt:hover
@@ -1008,6 +1017,7 @@ ol > li > a
 {
 	width: 250px;
 	height: 155px;
+	z-index: 2;
 }
 
 .graduation:hover
@@ -1024,6 +1034,7 @@ ol > li > a
 {
 	width: 250px;
 	height: 155px;
+	z-index: 2;
 }
 
 .gmail:hover
