@@ -152,9 +152,6 @@ body
 	display: flex;
 }
 
-
-
-
 .galleryps
 {
 	display: flex;
@@ -162,7 +159,6 @@ body
 
 #berlin
 {
-	
 	height: 450px;
 	margin:30px;
 	width: 360px;
@@ -349,7 +345,6 @@ ol > li > a
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row-reverse;
-	
 }
 
 .contentindex1
@@ -1065,6 +1060,7 @@ ol > li > a
 {
 	flex-direction: column;
 	text-align: right;
+
 }
 
 .boxps4
