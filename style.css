@@ -12,7 +12,7 @@ body
 
 #particles-js
 {
-	height: 100vh;	
+	display: flex;
 }
 
 .wrapper
@@ -440,6 +440,7 @@ ol > li > a
 	width:400px;
 	height: 500px;
 	margin:40px;
+	z-index: 2;
 }
 
 .galeryindex
