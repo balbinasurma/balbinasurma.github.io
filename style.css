@@ -82,7 +82,7 @@ body
 
 .logoBlog
 {
-	width: 12vh;
+	width: 20vh;
 	font-size: 23px;
 	font-weight: bold;
 	letter-spacing: 3px;
@@ -118,6 +118,13 @@ body
 	width:380px;
 }
 
+#zdjblogsopot
+{
+	height: 290px;
+	margin:5px;
+	width:340px;
+}
+
 #zdjblog4
 {
 	height: 490px;
@@ -140,6 +147,13 @@ body
 	width:400px;
 }
 
+#zdjblue
+{
+	height: 275px;
+	margin:5px;
+	width:250px;
+}
+
 #champion
 {
 	height: 30px;
@@ -155,6 +169,7 @@ body
 .galleryps
 {
 	display: flex;
+	flex-direction: column;
 }
 
 #berlin
@@ -162,6 +177,13 @@ body
 	height: 450px;
 	margin:30px;
 	width: 360px;
+}
+
+#bmw
+{
+	height: 340px;
+	width: 500px;
+	
 }
 
 
@@ -454,7 +476,15 @@ ol > li > a
 }
 #photoindex
 {
-	width:350px;
+	width:400px;
+	height: 275px;
+	margin:5px;
+	z-index: 2;
+}
+
+#photoindex1
+{
+	width:320px;
 	height: 275px;
 	margin:5px;
 	z-index: 2;
@@ -497,10 +527,10 @@ ol > li > a
 	background: #090909;
 	border:none;
 	border-radius: 5px;
-	padding: 25px;
-	margin-top: 40px;
-	margin-right: 40px;
-	margin-bottom: 100px;
+	padding: 20px;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 20px;
 	text-align: justify;
 	font-size: 15px;
 	line-height: 30px;
@@ -948,10 +978,10 @@ ol > li > a
 	height: 400px;
 }
 
-#myphoto {
-    height: 300px;
-    width: 250px;
-    margin: 30px;
+#myphoto 
+{
+	height: 410px;
+	width: 255px;
 }
 
 .contentblog77
@@ -1056,6 +1086,11 @@ ol > li > a
 
 @media (max-width:1320px)
 {
+#myphoto 
+{
+	height: 410px;
+	width: 255px;
+}
 
 .boxindex1
 {
@@ -1119,7 +1154,11 @@ ol > li:first-child
 /*.............................................................................................................1100px......................*/
 @media (max-width:1100px)
 {
-
+#myphoto 
+{
+	height: 410px;
+	width: 255px;
+}
 .burger
 {
 	display: block;
@@ -1195,6 +1234,13 @@ ol > li:first-child
 /*.......................................................................................................................980px.....................*/
 @media (max-width:980px)
 {
+	
+#myphoto 
+{
+	height: 410px;
+	width: 255px;
+	margin-bottom: 20px;
+}
 
 .contentpp2
 {
@@ -1251,7 +1297,11 @@ font-size: 15px;
 /*......................................................................................................860px............*/
 @media (max-width:860px)
 {
-
+#myphoto 
+{
+	height: 410px;
+	width: 255px;
+}
 
 }
 
@@ -1259,7 +1309,11 @@ font-size: 15px;
 
 @media (max-width:700px)
 {
-
+#myphoto 
+{
+	height: 410px;
+	width: 255px;
+}
 .burger
 {
 	display: none;
@@ -1304,7 +1358,11 @@ ol > li:first-child
 /*.......................................................................................................................547px........*/
 @media (max-width:547px)
 {
-
+#myphoto 
+{
+	height: 410px;
+	width: 255px;
+}
 .logo
 {
 	font-size: 18px;
@@ -1588,15 +1646,22 @@ ol > li:first-child
 /*.......................................................................................................480px..............*/
 @media (max-width:480px)
 {
-
-
+#myphoto 
+{
+	height: 410px;
+	width: 255px;
+}
 	
 }
 
 /*...................................................................................................................430px..................*/
 @media (max-width:430px)
 {
-
+#myphoto 
+{
+	height: 410px;
+	width: 255px;
+}
 .line
 {
 	width: 25px;
@@ -1612,5 +1677,9 @@ ol > li:first-child
 /*.................................................................................................................328px.......................*/
 @media (max-width:328px)
 {
-	
+#myphoto 
+{
+	height: 410px;
+	width: 255px;
+}
 )
